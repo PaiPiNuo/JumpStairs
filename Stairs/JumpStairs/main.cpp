@@ -1,0 +1,21 @@
+#include<iostream>
+#include "main.h"
+using namespace std;
+
+static int A2(){
+	cout<<"main_A"<<endl;
+	return 0;
+}
+int main(){
+	int Num_Stairs;
+	cout<<"Please input the Number of Total Stairs:"<<endl;
+	cin>>Num_Stairs;
+	cout<<"Number of ways to Go Up Stairs:"<<endl;
+	cout<<"Method-Recursion:"<<simpleStairs_Recur(Num_Stairs)<<endl;
+	cout<<"Method-Dynamic Programming:"<<simpleStairs_Dyna(Num_Stairs)<<endl;
+
+
+	cout<<"HelloWorld!"<<endl;
+	system("pause");
+	return 0;
+}
