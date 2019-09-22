@@ -90,10 +90,3 @@ int CrazyStairs_Dyna(const int n){
 	
 	}
 }
-/*
-Exchange Coin---Dynamic Programming
-*/
-int ExchangeCoin_Dyna() {
-
-	return 0;
-}
